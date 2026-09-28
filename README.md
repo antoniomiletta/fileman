@@ -15,6 +15,10 @@ Go, PostgreSQL (`pgx`), a pluggable storage backend (`local disk`) and a backgro
 
 # Setup
 
+### Dependencies
+- [`golang-migrate (CLI)`](https://github.com/golang-migrate/migrate/tree/master/cmd/migrate) —  run migrations
+
+### Run
 To run it locally, you can just copy the example env file:
 ```bash
 cp .env.example .env
